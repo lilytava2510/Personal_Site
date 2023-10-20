@@ -1,0 +1,98 @@
+ #name {
+    padding-left: 20px;
+    color:#BCA37F; 
+    padding-right: 75%;
+    display: inline-block; 
+    font-size: large;
+} 
+
+a:hover {
+    color: #EAD7BB;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger; 
+}
+
+a {
+    color:#BCA37F; 
+    float: right; 
+    font-size: x-large;
+}
+
+#home {
+    padding-left: 20px;
+
+}
+
+#about {
+    padding-left: 20px;
+}  
+
+
+#portfolio {
+    margin: 0; 
+     padding-left: 20px; 
+    /* padding-right: 20px; */
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 75%;  
+  } 
+
+#pro-pic {
+    padding-top: 90px;
+    padding-left: 20px;
+}
+nav {
+background-color: #113946;
+position: fixed;
+top: 0;
+width: 100%;
+left: 0;
+
+
+   
+}
+
+li {
+    display: inline-block; 
+    
+}
+
+.job-title {
+    color:#BCA37F; 
+    font-size: 30px;
+    margin-top: 70px;
+    padding-left: 20px;
+    /* align-items: center;
+    padding-left: 20px;
+    display: flex;
+   
+    justify-content: center;  */
+
+}
+ 
+#imge {
+   float: left; 
+   max-width: 25%;
+   max-height: 25%;
+
+}
+
+.text-image {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+.quote {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    color:#113946;
+    font-family: cursive;
+    font-size: 75px;
+    /* width: 20% fit-content; */
+}
