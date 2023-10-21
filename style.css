@@ -3,7 +3,7 @@
     color:#BCA37F; 
     padding-right: 75%;
     display: inline-block; 
-    font-size: large;
+    font-size: 20px;
 } 
 
 a:hover {
@@ -29,7 +29,7 @@ a {
 
 
 #portfolio {
-    margin: 0; 
+    /* margin: 0;  */
      padding-left: 20px; 
     /* padding-right: 20px; */
 }
@@ -94,5 +94,49 @@ li {
     color:#113946;
     font-family: cursive;
     font-size: 75px;
-    /* width: 20% fit-content; */
+    width: 50%;
+    margin: auto;
+}
+
+.hiking {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    font-size: 20px;
+     margin-top: 100px;
+    width: 60%;
+    background-color: #113946;
+    
+}
+
+.interest-img {
+    float: left; 
+   padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+#title {
+    font-size: 30px;
+    color:#BCA37F; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#interest-section {
+    /* padding: 20px; */
+    /* padding-top: 500px;  */
+     /* width:50%;  */
+    background-color: #113946;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+
+   
+   
+ 
+}
+
+#about-paragraph {
+    color: #EAD7BB;
+
 }
