@@ -1,9 +1,10 @@
  #name {
+    padding-right: 20px;
     padding-left: 20px;
     color:#BCA37F; 
     padding-right: 75%;
     display: inline-block; 
-    font-size: 20px;
+    font-size: 30px;
 } 
 
 a:hover {
@@ -19,24 +20,22 @@ a {
 }
 
 #home {
-    padding-left: 20px;
+    padding-left: 30px;
 
 }
 
 #about {
-    padding-left: 20px;
+    padding-left: 30px;
 }  
 
 
 #portfolio {
-    /* margin: 0;  */
-     padding-left: 20px; 
-    /* padding-right: 20px; */
+     padding-left: 30px; 
 }
 
 
 ul {
-    list-style-type: none;
+    
     margin: 0;
     padding: 0;
     padding-left: 75%;  
@@ -67,11 +66,6 @@ li {
     font-size: 30px;
     margin-top: 70px;
     padding-left: 20px;
-    /* align-items: center;
-    padding-left: 20px;
-    display: flex;
-   
-    justify-content: center;  */
 
 }
  
@@ -123,20 +117,47 @@ li {
 }
 
 #interest-section {
-    /* padding: 20px; */
-    /* padding-top: 500px;  */
-     /* width:50%;  */
     background-color: #113946;
     display: flex; 
     align-items: center; 
     justify-content: center;
 
-   
-   
- 
 }
 
 #about-paragraph {
     color: #EAD7BB;
 
+}
+
+.title-page {
+    margin-top: 120px;
+    font-size: 30px;
+    color: #113946;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 20px;
+
+}
+.portfolio-section {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #BCA37F;
+      padding: 85px 24px 96px;
+      box-shadow: 0 0 12px -2px black;
+      background-color: #EAD7BB
+}
+#project-title {
+    font-size: 30px;
+    color: #113946;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.paragraph-text {
+    float: left; 
+    color:#BCA37F;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    display:inline-block;
+
+}
+#tt {
+    display: inline-blocks;
 }
