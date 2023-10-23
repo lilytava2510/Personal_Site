@@ -161,3 +161,18 @@ li {
 #tt {
     display: inline-blocks;
 }
+.email-logo {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding-right: 100px;
+}
+
+
+.flogo {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+   
+}
+
