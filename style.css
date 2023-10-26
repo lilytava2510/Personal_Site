@@ -1,0 +1,178 @@
+ #name {
+    padding-right: 20px;
+    padding-left: 20px;
+    color:#BCA37F; 
+    padding-right: 75%;
+    display: inline-block; 
+    font-size: 30px;
+} 
+
+a:hover {
+    color: #EAD7BB;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger; 
+}
+
+a {
+    color:#BCA37F; 
+    float: right; 
+    font-size: x-large;
+}
+
+#home {
+    padding-left: 30px;
+
+}
+
+#about {
+    padding-left: 30px;
+}  
+
+
+#portfolio {
+     padding-left: 30px; 
+}
+
+
+ul {
+    
+    margin: 0;
+    padding: 0;
+    padding-left: 75%;  
+  } 
+
+#pro-pic {
+    padding-top: 90px;
+    padding-left: 20px;
+}
+nav {
+background-color: #113946;
+position: fixed;
+top: 0;
+width: 100%;
+left: 0;
+
+
+   
+}
+
+li {
+    display: inline-block; 
+    
+}
+
+.job-title {
+    color:#BCA37F; 
+    font-size: 30px;
+    margin-top: 70px;
+    padding-left: 20px;
+
+}
+ 
+#imge {
+   float: left; 
+   max-width: 25%;
+   max-height: 25%;
+
+}
+
+.text-image {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+.quote {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    color:#113946;
+    font-family: cursive;
+    font-size: 75px;
+    width: 50%;
+    margin: auto;
+}
+
+.hiking {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    font-size: 20px;
+     margin-top: 100px;
+    width: 60%;
+    background-color: #113946;
+    
+}
+
+.interest-img {
+    float: left; 
+   padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+#title {
+    font-size: 30px;
+    color:#BCA37F; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#interest-section {
+    background-color: #113946;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+
+}
+
+#about-paragraph {
+    color: #EAD7BB;
+
+}
+
+.title-page {
+    margin-top: 120px;
+    font-size: 30px;
+    color: #113946;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 20px;
+
+}
+.portfolio-section {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #BCA37F;
+      padding: 85px 24px 96px;
+      box-shadow: 0 0 12px -2px black;
+      background-color: #EAD7BB
+}
+#project-title {
+    font-size: 30px;
+    color: #113946;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.paragraph-text {
+    float: left; 
+    color:#BCA37F;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    display:inline-block;
+
+}
+#tt {
+    display: inline-blocks;
+}
+.email-logo {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding-right: 100px;
+}
+
+
+.flogo {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+   
+}
+
