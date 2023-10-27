@@ -32,6 +32,9 @@ a {
 #portfolio {
      padding-left: 30px; 
 }
+#contact {
+    padding-left: 30px; 
+}
 
 
 ul {
@@ -175,4 +178,9 @@ li {
     justify-content: center;
    
 }
-
+.container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap; 
+  
+    }
