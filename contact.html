@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Information</title>
+    <style>
+      html {
+            background-color:#F5E8B7;
+        }
+        h1 {
+            height: calc(100% - 15px);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <b>
+            <nav id="headerLinks"> 
+            <h1 id="name">Lilianne Tavarez</h1>
+        <ul>
+            <li><a id="home" href="./index.html">Home</a></li>   
+            <li><a id="about" href="./about.html">About</a></li>
+            <li><a id="portfolio" href="./portfolio.html">Portfolio</a></li>
+            <li><a id="contact" href="#">Contact</a></li>
+        </ul>
+        </nav>
+</b>
+</header>
+<div style="margin-top: 140px;"><h1>Contact Me:</h1></div>
+<div class="container">
+    <form>
+        <div>
+        <label for="fullname">Fullname:</label><br/>
+        <input type="text" value="fullname" style="width: 200px; border-radius: 10px;"/>
+        </div>
+        <div>
+            <label for="email">Email:</label><br/>
+            <input type="text" value="email" style="width: 200px; border-radius: 10px;" />
+        </div>
+        <div class="comment-box">    
+            <label for="Message">Message:</label><br/>
+            <input type="text" value="" style="width: 200px; height: 200px; border-radius: 10px">
+        </div>
+        <div>
+            <button type="submit" value="Submit" onclick="alert('Your message has been sent.')" >Submit</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>

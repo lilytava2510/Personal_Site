@@ -1,20 +1,44 @@
+ .container-1 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 50%;
+    width: 50%;
+ }
+
+ .text-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 10px;
+    top: -20px;
+ }
+ .job-title {
+    color: #6A9C89;
+    font-size: 30px;
+    top: 145px;
+    padding-left: 20px;
+    right: -135px;
+    position: relative;
+ }
+ 
  #name {
     padding-right: 20px;
     padding-left: 20px;
-    color:#BCA37F; 
+    color: #FFFADD;
     padding-right: 75%;
     display: inline-block; 
     font-size: 30px;
 } 
 
 a:hover {
-    color: #EAD7BB;
+    color: #FFFADD;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger; 
 }
 
 a {
-    color:#BCA37F; 
+    color:#FFFADD; 
     float: right; 
     font-size: x-large;
 }
@@ -32,6 +56,9 @@ a {
 #portfolio {
      padding-left: 30px; 
 }
+#contact {
+    padding-left: 30px; 
+}
 
 
 ul {
@@ -46,7 +73,7 @@ ul {
     padding-left: 20px;
 }
 nav {
-background-color: #113946;
+background-color: #CD5C08;
 position: fixed;
 top: 0;
 width: 100%;
@@ -61,13 +88,7 @@ li {
     
 }
 
-.job-title {
-    color:#BCA37F; 
-    font-size: 30px;
-    margin-top: 70px;
-    padding-left: 20px;
 
-}
  
 #imge {
    float: left; 
@@ -76,19 +97,19 @@ li {
 
 }
 
-.text-image {
-    display: flex;
-    align-items: center; 
-    justify-content: center;
-}
+
 .quote {
     display: flex;
     align-items: center; 
     justify-content: center;
-    color:#113946;
+    color:#6A9C89;
     font-family: cursive;
     font-size: 75px;
-    width: 50%;
+    width: 75%;
+    position: relative;
+    right: 40px;
+    top:40px;
+    
     margin: auto;
 }
 
@@ -112,7 +133,7 @@ li {
 
 #title {
     font-size: 30px;
-    color:#BCA37F; 
+    color:#FFFADD; 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -130,7 +151,7 @@ li {
 }
 
 .title-page {
-    margin-top: 120px;
+    margin-top: 250px;
     font-size: 30px;
     color: #113946;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -158,9 +179,7 @@ li {
     display:inline-block;
 
 }
-#tt {
-    display: inline-blocks;
-}
+
 .email-logo {
     display: flex;
     align-items: center; 
@@ -176,3 +195,33 @@ li {
    
 }
 
+.container-project {
+    background-color: #6A9C89;
+    width: 75%;
+    border-radius: 10px;
+    border: 10px solid #6A9C89;;
+    align-items: center;
+    margin: 10%;
+    padding: 50px; 
+    display: grid;
+    grid-template-rows: repeat(3,2fr);
+    grid-template-areas: 
+    "box-project-1 paragraph-text1 paragraph-text1"
+    "paragraph-text2 paragraph-text2 paragraph-text2";
+    grid-gap: 50px;
+    height: 75%;
+    
+    
+}
+.paragraph-text {
+    color: #C1D8C3;
+
+}
+.image-2 {
+    padding-left: 30px;
+    flex:30%;
+}
+
+.box-project-1 {
+    grid-gap: 50px;
+}
